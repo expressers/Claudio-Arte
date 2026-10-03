@@ -30,7 +30,7 @@ function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-text">
-        <p className="eyebrow">Pintura contemporânea</p>
+        <p className="eyebrow">Artista plástico · Poeta</p>
         <h1>
           Rostos,<br />cidades<br />&amp; <em>cor.</em>
         </h1>
@@ -137,16 +137,21 @@ function Artist() {
         </div>
         <div className="artist-text">
           <p className="eyebrow">O artista</p>
-          <h2>Pintar em <em>grande</em>, para que ninguém passe sem olhar.</h2>
+          <h2>Entre o <em>abstrato</em>, o realismo e o surrealismo.</h2>
           <p>
-            Telas de grande formato, retratos com cada ruga no lugar e cidades feitas de
-            blocos de cor. Ao lado do realismo dos rostos vivem experiências mais livres:
-            telas circulares, tinta em relevo, azuis que escorrem.
+            Com 13 anos de carreira, Cláudio Arte vagueia entre o abstrato, o realismo e o
+            surrealismo: retratos onde cada ruga tem lugar, cidades feitas de blocos de cor e
+            telas circulares onde a tinta escorre livre.
+          </p>
+          <p>
+            Além das artes plásticas, é poeta e, profissionalmente, jornalista. O seu percurso
+            navega entre as marés da comunicação e as marés plásticas — sempre como um bom
+            comunicador.
           </p>
           <ul className="facts">
-            <li><strong>Retratos</strong><span>avós, mães, crianças, jovens</span></li>
-            <li><strong>Cidade</strong><span>ruas, mercados, o trabalho de todos os dias</span></li>
-            <li><strong>Círculos</strong><span>experiências de textura e cor</span></li>
+            <li><strong>Carreira</strong><span>13 anos nas artes plásticas</span></li>
+            <li><strong>Projectos colectivos</strong><span>Banco Económico · ELA – Espaço Luanda Arte · Instituto Camões</span></li>
+            <li><strong>Também</strong><span>poeta e jornalista</span></li>
           </ul>
         </div>
       </div>
