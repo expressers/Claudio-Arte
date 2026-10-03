@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: claudio-arte
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    headers:
+      - path: /obras/*
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
