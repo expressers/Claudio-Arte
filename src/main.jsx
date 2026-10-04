@@ -1,5 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import '@fontsource/big-shoulders-stencil-display/800'
+import '@fontsource/big-shoulders-stencil-display/900'
+import '@fontsource-variable/schibsted-grotesk'
 import App from './App.jsx'
 import './styles.css'
 
